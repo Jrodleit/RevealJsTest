@@ -1,40 +1,152 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+	<title>reveal.js</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+<body>
+<div class="reveal">
+	<div class="slides">
+		<section data-background="/media/htl-panorama-16-4.jpg"
+				 data-background-size="cover"
+				 data-background-position="center">
+			<div>
+				<h1 id="ersteH1">Meine Projekte in der HTL</h1>
 			</div>
-		</div>
+		</section>
+		<section>
+			<section>
+				<h2>Taschenrechner</h2>
+				<div>
+					<img src="/media/taschenrechner.png" width="272.5" height="486">
+				</div>
+			</section>
+			<section>
+				<h3>Mein erstes Projekt!</h3>
+				<p>Dieser Taschenrechner unterstützt Grundrechenarten und wurde als Teil
+					eines Lernprojekts in Java entwickelt.</p>
+				<ul>
+					<li>Addition (+)</li>
+					<li>Subtraktion (-)</li>
+					<li>Multiplikation (×)</li>
+					<li>Division (÷)</li>
+					<li>Etc...</li>
+				</ul>
+			</section>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+		</section>
+		<section>
+			<h2>Schere Stein Papier</h2>
+			<section>
+				<div>
+					<img src="/media/SchereSteinPapier.png" width="488.75" height="500">
+				</div>
+			</section>
+			<section>
+				<ul>
+					<li>Erstes Spiel, das wir im Fach ITP programmiert haben.</li>
+					<li>Ein einfaches, aber beliebtes Spiel, das auf den Prinzipien von Zufall und Logik basiert.</li>
+					<li>Der Spieler wählt eine der drei Optionen: Schere, Stein oder Papier.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>Spielprinzip und Ablauf</h3>
+				<p>Das Spiel funktioniert folgendermaßen:</p>
+				<ul>
+					<li>Der Spieler wählt eine der Optionen (Schere, Stein oder Papier).</li>
+					<li>Der Computer wählt zufällig eine der drei Optionen.</li>
+					<li>Der Gewinner wird durch die oben genannten Regeln bestimmt.</li>
+				</ul>
+			</section>
+		</section>
+		<section>
+			<h2>Minesweeper</h2>
+			<section>
+				<img src="/media/Minesweeeeper.png">
+			</section>
+			<section>
+				<h3>Spielprinzip</h3>
+				<p>Minesweeper ist ein Logikspiel, bei dem der Spieler Felder aufdeckt, ohne auf eine Mine zu klicken. Ziel ist es, alle sicheren Felder zu enthüllen, basierend auf den Zahlen, die die benachbarten Minen anzeigen. Das Spiel endet, wenn entweder alle sicheren Felder freigelegt sind oder eine Mine aufgedeckt wird.</p>
+			</section>
+			<section>
+				<ul>
+					<li>Der Spieler klickt auf ein Feld, um es aufzudecken.</li>
+					<li>Jedes Feld zeigt entweder eine Zahl (die Anzahl benachbarter Minen) oder ist leer (kein angrenzendes Minenfeld).</li>
+					<li>Wenn ein Spieler auf eine Mine klickt, endet das Spiel sofort.</li>
+					<li>Das Spiel endet auch, wenn alle sicheren Felder aufgedeckt wurden, ohne eine Mine zu treffen.</li>
+				</ul>
+			</section>
+		</section>
+		<section>
+			<h2>Tetris</h2>
+			<section>
+				<img src="/media/Teeetris.png">
+			</section>
+			<section>
+				<h3>Spielprinzip</h3>
+				<p>Tetris ist ein klassisches Puzzle-Spiel, bei dem der Spieler fallende Blöcke (Tetrominos) so dreht und positioniert, dass sie eine vollständige Reihe ohne Lücken bilden. Wenn eine Reihe vollständig ist, wird sie gelöscht, und der Spieler erhält Punkte. Das Spiel endet, wenn die Blöcke den oberen Rand des Bildschirms erreichen.</p>
+			</section>
+			<section>
+				<ul>
+					<li>Blöcke können nach links, rechts ,unten und gedreht bewegt werden.</li>
+					<li>Es wird ein neuer Block generiert, wenn der der alte block unten ankommt</li>
+					<li>Wenn eine Reihe voll ist, wird sie gelöscht und der Spieler erhält Punkte.</li>
+				</ul>
+			</section>
+		</section>
+		<section>
+			<h2>Snake</h2>
+			<section>
+				<img src="/media/snakeScreeen.png">
+			</section>
+			<section>
+				<h3>Spielprinzip</h3>
+				<ul>
+					<li>Snake ist ein klassisches Arcade-Spiel, bei dem der Spieler eine Schlange steuert, die auf dem Bildschirm wächst, indem sie Äpfel frisst.</li>
+					<li>Die Schlange darf sich nicht selbst beißen oder gegen die Wand stoßen.</li>
+					<li>Das Ziel ist es, so viele Äpfel wie möglich zu essen, um die längste Schlange zu bekommen, ohne das Spiel zu verlieren.</li>
+				</ul>
+			</section>
+			<section>
+				<h3>Spielmechanik und Steuerung</h3>
+				<ul>
+					<li>Die Schlange besteht aus mehreren Segmenten, die dem Kopf folgen.</li>
+					<li>Der Spieler steuert den Kopf der Schlange mit den Pfeiltasten, um die Richtung zu ändern.</li>
+					<li>Wenn die Schlange den Apfel isst, wächst sie um ein Segment.</li>
+					<li>Wenn die Schlange sich selbst oder die Wand berührt, endet das Spiel.</li>
+				</ul>
+			</section>
+			<section>
+			<ul>
+				<li>Die Schlange bewegt sich in einer der vier Richtungen (oben, unten, links, rechts).</li>
+				<li>Das Spiel überprüft ständig, ob die Schlange auf sich selbst oder auf eine Wand trifft.</li>
+				<li>Für jedes gegessene Apfel wächst die Schlange und die Punktzahl erhöht sich.</li>
+			</ul>
+			</section>
+		</section>
+	</div>
+</div>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+<script src="dist/reveal.js"></script>
+<script src="plugin/notes/notes.js"></script>
+<script src="plugin/markdown/markdown.js"></script>
+<script src="plugin/highlight/highlight.js"></script>
+<script>
+	Reveal.initialize({
+		hash: true,
+
+		// Learn about plugins: https://revealjs.com/plugins/
+		plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+	});
+</script>
+</body>
 </html>

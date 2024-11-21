@@ -10,6 +10,15 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   color: #ddd;
 }
 
+#ersteH1 {
+  text-shadow: 8px 8px 15px rgba(0, 0, 0, 1),
+  -4px -4px 8px rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+
 .hljs-tag,
 .hljs-keyword,
 .hljs-selector-tag,
